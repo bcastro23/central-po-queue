@@ -8,6 +8,8 @@ Now due to increased number of orders from non-central system it is required to 
 Since central ERP system does not have access to distributed web app it is required to create an API app that will hold every order created from distributed system and then ERP central system will fetch those orders and will post them into the system. This interface will work as a queue between non-posted and posted documents.
 Since document posting in ERP central system requires a lot of business validation and knowledge which is already built-in, makes no sense to post the documents from an external source.
 
+![2021-11-05 17_40_38](https://user-images.githubusercontent.com/61890828/140589636-11a7bbf6-9122-4397-ad57-3fb03d072e8d.png)
+
 
 Orders submitted will contain following data
 
