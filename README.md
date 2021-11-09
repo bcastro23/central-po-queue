@@ -37,4 +37,9 @@ Methods POST and GET will be implemented for release 1 (v1).
 - During POST, data is validated according to instructions above and data is stored into Central-PO-queue.
 - During GET, data is retrieved to requester.
 
-
+## RESTful convention
+- GET /api/v1/cpoq/PurchaseOrders
+- GET /api/v1/cpoq/PurchaseOrders/1
+- POST /api/v1/cpoq/PurchaseOrders
+- PUT /api/v1/cpoq/PurchaseOrders/1
+- DELETE /api/v1/cpoq/PurchaseOrders/1
