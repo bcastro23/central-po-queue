@@ -1,0 +1,6 @@
+---
+applications:
+- name: cpoq
+  random-route: true
+  path: app
+  memory: 128M

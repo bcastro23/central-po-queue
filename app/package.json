@@ -11,7 +11,7 @@
     "url": "git+https://github.com/bcastro23/central-po-queue.git"
   },
   "keywords": [
-    "po-queue",
+    "central-po-queue",
     "API",
     "RESTful"
   ],
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/bcastro23/central-po-queue/issues"
   },
-  "homepage": "https://github.com/bcastro23/central-po-queue#readme"
+  "homepage": "https://github.com/bcastro23/central-po-queue#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "morgan": "^1.10.0"
+  }
 }
